@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tabla{
+            width: 100%;
+            height: auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        .tabla td{            
+            border-bottom: cadetblue solid 1px;
+        }
+        .tabla th{
+            color: rgb(47, 3, 243);
+        }
+    </style>
+</head>
+<body>
+
+    <table class="tabla">
+        <tr>
+            <td>Tareas</td>
+            <td>Proceso</td>
+            <td>Finalizada</td>
+        </tr>
+        <tr>
+            <td>Tarea<button button id="1" nombre="tarea" onclick="cambiar(this)">proceso</button><button button id="7" nombre="escuela" onclick="cambiar(this)">terminada</button></td>
+            <td><button button id="2" nombre="escuela" onclick="cambiar(this)">terminada</button></td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Comer<button button id="3" nombre="escuela" onclick="cambiar(this)">proceso</button><button button id="8" nombre="escuela" onclick="cambiar(this)">terminada</button></td>
+            <td><button button id="4" nombre="escuela" onclick="cambiar(this)">terminada</button></td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>pasear<button button id="5" nombre="escuela" onclick="cambiar(this)">proceso</button><button button id="9" nombre="escuela" onclick="cambiar(this)">terminada</button></td>
+            <td><button button id="6" nombre="escuela" onclick="cambiar(this)">terminada</button></td></td>
+            <td></td>
+        </tr>
+
+    </table>
+    
+</body>
+<script>
+ 
+function cambiar(){
+    alert("moviste una tarea")
+    
+}
+
+
+
+
+</script>
+</html>
